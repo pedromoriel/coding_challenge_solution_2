@@ -1,0 +1,19 @@
+{
+  "name": "code_challenge_solution_2",
+  "version": "1.0.0",
+  "description": "Create a RESTful service whose controller layer has three endpoints.",
+  "homepage": "https://github.com/pedromoriel/coding_challenge_solution_2",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "mongoose": "^5.11.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Pedro Moriel",
+  "license": "ISC"
+}

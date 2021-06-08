@@ -1,0 +1,27 @@
+<div>
+    <h2>This solution will calculate the sum between 2 numbers, then the result will be multiplied by 2 and finaly the result will be powered at ^2.</h2><br>
+    <h2>The displayed result will be the result of last operation (output_result = product_result ^2 ).</h2>
+    <br><br>
+</div>
+<div class="container">
+    <form [formGroup]="operationForm" (ngSubmit)="getASum()">
+        <div class="mb-3">
+          <input type="hidden" class="form-control" formControlName="_id">
+        </div>
+        <div class="mb-3">
+          <label for="number1" class="col-form-label">First Number:</label>
+          <input type="number" class="form-control" formControlName="number1">
+        </div>
+        <div class="mb-3">
+          <label for="number2" class="col-form-label">Second Number:</label>
+          <input type="number" class="form-control" formControlName="number2">
+        </div>
+        <div class="mb-3">
+          <button type="submit" id="sbmt">Calculate</button>
+        </div>
+      </form>
+      <br><br>
+      <div>
+        <span>Final Result is: {{resultOperation}}</span>
+    </div>
+</div>
