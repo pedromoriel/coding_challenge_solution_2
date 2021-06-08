@@ -13,7 +13,7 @@ BEFORE RUNNING:
 -You need to run the server and the client separatly:
 -> To run the server open a terminal and go to 'server' folder location in a terminal:
     example: 'cd coding_challenge_solution_2/server'
-    Then run 'npm start'
+    Then run 'npm install' to install all dependecies and next run 'npm start'
 -> To run client open another terminal and go to client 'app' folder :
     example: 'cd coding_challenge_solution_2/client/code-challenge/src/app'
     Then run 'ng serve'
